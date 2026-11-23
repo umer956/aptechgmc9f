@@ -1,0 +1,158 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+/* navbarstart */
+.navbar{
+    display: flex;
+justify-content: space-between;
+ background-color: rgb(58, 35, 1);
+ padding: 10PX;
+}
+.navbar .list ul{
+display: flex;
+gap: 15px;
+list-style: none;
+}
+.navbar .list ul li a{
+color: rgb(248, 159, 25);
+text-decoration: none;
+font-size: 20px;
+}
+.navbar .list ul li a:hover{
+color: rgb(25, 25, 26);
+text-decoration: underline;
+font-size: 20px;
+}
+.navbar img{
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 100%;
+    width: 50px;
+}
+
+/* navbarend */
+
+/* Headtr */
+.header{
+   background-image: url(images/Untitled-5_5.jpg.avif);
+   background-size: cover;
+padding: 100px 600px 200px 50px;
+color: aliceblue;
+}
+.heading{
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.coffee{
+    color: rgb(248, 159, 25);
+}
+.point{
+    color: rgb(248, 159, 25);
+      animation-name: pointanimation;
+  animation-duration: 4s;
+}
+@keyframes pointanimation {
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:yellow; left:0px; top:0px;}
+  50%  {color:blue; left:0px; top:0px;}
+  75%  {color:green; left:0px; top:0px;}
+  100% {color:red; left:0px; top:0px;}
+}
+.btn{
+    padding: 10px 50px;
+    border: 3px solid rgb(248, 159, 25);
+    border-radius: 10px 0px 10px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn:hover{
+    padding: 10px 50px;
+    border: 3px solid rgb(248, 159, 25);
+    border-radius: 10px 0px 10px 0px;
+    color: rgb(248, 159, 25);
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer; 
+}
+
+
+/* Headtr end */
+
+
+
+/* About start */
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 50px;
+    gap: 20px;
+}
+.about .box img{
+width: 500px;
+height: 500px;
+border-radius: 0px 200px 0px 200px;
+border: 5px dashed rgb(224, 131, 9);
+padding: 10px;
+
+}
+/* About end */
+
+/* subheader */
+.subheader{
+    background-image: url(images/Untitled-5_5.jpg.avif);
+    background-size: cover;
+    padding: 100px ;
+    color: aliceblue;
+    
+    
+}
+/* subheader  end */
+
+/* image galary */
+.imgheading{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+.imagesgalary{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-columns: 600px 300px 600px 300px; */
+    padding: 100px;
+    gap: 20px;
+}
+/* image galarye end */
+
+/* form css */
+.myform{
+    background-color: rgb(255, 146, 12);
+    padding: 30px;
+    border-radius: 10px;
+}
+.myform label{
+color: rgb(17, 15, 13);
+font-size: 12px;
+}
+.myform input{
+padding: 3px 55% 3px 5px;
+border-radius: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.myform textarea{
+padding: 3px 0% 3px 5px;
+border-radius: 5px;
+border: 1px solid rgb(0, 0, 0);
+}
+.myform button{
+    padding: 7px 45% 7px 45%;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #0c0702;
+    color: white;
+}
+/* form css end */
