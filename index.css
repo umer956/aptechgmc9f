@@ -7,7 +7,7 @@ body{
 .navbar{
     display: flex;
 justify-content: space-between;
- background-color: rgb(58, 35, 1);
+ background-color: rgb(231, 186, 119);
  padding: 10PX;
 }
 .navbar .list ul{
